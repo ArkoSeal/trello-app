@@ -1,0 +1,11 @@
+
+.card-container {
+    height: 100vh;
+    background-image: linear-gradient(to right, #4126ab , #d7499d);
+    overflow-x: auto;
+}
+
+.card-container .card-list {
+    padding-top: 4rem;
+    display: flex;   
+}
