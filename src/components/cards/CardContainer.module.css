@@ -1,11 +1,42 @@
 
 .card-container {
-    height: 100vh;
+    padding-top: 4rem;
+    height: 93VH;
     background-image: linear-gradient(to right, #4126ab , #d7499d);
     overflow-x: auto;
 }
 
 .card-container .card-list {
-    padding-top: 4rem;
-    display: flex;   
+    display: flex;
+    height: 85vh;
+}
+
+.card-container .add-column {
+    margin-left: 1rem;
+}
+
+.add-column input {
+    height: 1.5rem;
+    width: 20rem;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.add-column button {
+    margin: 0 1rem;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 6px;
+    background: #4126ab;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .card-container .card-list {
+        flex-direction: column;   
+    }
+
+    .add-column button {
+        margin: 1rem 0;
+    }
 }

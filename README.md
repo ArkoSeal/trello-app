@@ -1,3 +1,30 @@
+# Application functionality covered
+
+* Use 'Add Column' to add a new card column with given label value. A label can be 15 char max long.
+* Use 'Add Card' button to add a new card.
+* Click on a card ('Enter card detail'), and fill the card datails.
+* Click outside the input area to save your changes.
+* Use 'move' selectbox to move your card between coloumns.
+
+# Features Roadmap
+
+* Add 'drag and drop' functionality.
+* Add 'view card details' feature to see card data in a modal.
+* Delete a 'Card' from column.
+* Delete a 'Card Column".
+* Modify 'Card Column" label
+* Enahnce layout for better user experience.
+* Improve responsiveness of the application
+
+# Technical Backlog
+
+* Refactor code in perspective of better model creation for strong typing
+* Add unit test cases
+* Structure your context in a better modular way
+* Building reusable UI components select, button, input to maintain reusability and styles
+* configure less to make css cleaner
+
+# ..................................................................................................................................
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

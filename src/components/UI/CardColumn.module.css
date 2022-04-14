@@ -7,8 +7,16 @@
   max-width: 20rem;
   flex-shrink: 0;
   margin: 1rem;
+  align-self: flex-start;
+  overflow-y: auto;
+  max-height: 90%;
 }
 
 .card-grey-background {
   background-color: #ebecf0;
+}
+
+.add-card-button {
+  background: #4126ab;
+  color: white;
 }

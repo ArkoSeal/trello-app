@@ -1,18 +1,19 @@
 import React from 'react';
-import { Fragment } from 'react';
 
 import './App.css';
 import CardContainer from './components/cards/CardContainer';
 import Header from './components/layouts/Header';
+import { CardContextProvider } from './store/card-context';
+
 
 function App() {
   return (
-    <Fragment>
+    <CardContextProvider>
       <Header />
       <main>
         <CardContainer />
       </main>
-    </Fragment>
+    </CardContextProvider>
   );
 }
 
