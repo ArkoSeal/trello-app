@@ -24,7 +24,6 @@
 * Building reusable UI components select, button, input to maintain reusability and styles
 * configure less to make css cleaner
 
-# ..................................................................................................................................
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
